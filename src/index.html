@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="./src/images/favicon.ico">
+    <title>智慧住建大数据平台</title>
+    <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+    <style>
+        .top_btn{
+            background:url('./src/images/btn.png') no-repeat center center;
+        }
+        .sam_content{
+            background:url('./src/images/sam_bg.jpg') no-repeat center center;
+        }
+        .sam_suport_box{
+            background:url('./src/images/dzc_bg.jpg') no-repeat center center;
+        }
+        .apply_content ul li.active{
+            background:url('./src/images/tab_bg.png') no-repeat center center;
+        }
+        .ai_content{
+            background:url('./src/images/zn.png') no-repeat center center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar topbar" role="navigation">
+        <div class="container-fluid container">
+            <div class="navbar-header">
+                <span class="logo">
+                    <a href="/">
+                        <img src="./src/images/logo.png" id='1ogo_img'>
+                        <b></b>
+                        <span>智慧住建大数据平台</span>
+                    </a>
+                </span>
+            </div>
+            <div class="collapse navbar-collapse" id="kod-navbar-collapse">
+                <ul class="nav navbar-nav" style="margin-top:5px;">
+                    <li class="cur">
+                        <a class='active_nav' href="#floor0" class="nav-index">首页</a>
+                    </li>
+                    <li>
+                        <a href="#floor1" class="nav-home">产品介绍</a>
+                    </li>
+                    <li>
+                        <a href="#floor2" class="nav-price">平台特色</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:;">产品系列<b
+                                class="caret bottom-up"></b></a>
+                        <ul class="dropdown-menu bottom-up pull-center">
+                            <li><a href="#floor31">智慧住建服务平台</a></li>
+                            <li><a href="#floor32">智慧住建大数据</a></li>
+                            <li><a href="#floor33">智慧住建全业务</a></li>
+                            <li><a href="#floor34">智慧住建大支撑</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#floor5" class="nav-help">应用价值</a>
+                    </li>
+                    <li>
+                        <a href="#floor6" class="nav-about">联系我们</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class='container-fluid'>
+        <div class="top_img" id='floor0'>
+            <img src="./src/images/banner.jpg" alt="" id='banner'>
+            <div class="page_title">
+                <h1>智慧住建大数据平台</h1>
+                <p><span>服务中国住建</span><span>缔造数据生活</span></p>
+            </div>
+            <div class="top_btn" data-toggle="modal" data-target="#myModal">申请试用</div>
+        </div>
+        <div class="prod_intro_box" id='floor1'>
+            <div class="prod_content">
+                <div class='col-md-6 prod_img'>
+                    <img src="" data-src='./src/images/cpjs.jpg' alt="">
+                </div>
+                <div class='col-md-6 prod_text_box'>
+                    <div class="up_case">PRODUCT</div>
+                    <div class='module_title'>产品介绍</div>
+                    <div class='prod_text'>
+                        智慧住建是为各地政府落实“放管服”改革的重要举措，为支撑简政放权，加强事中事后监管，提高公共服务水平，以新建工程建设项
+                        目审批全过程为主要内容，推动建设工程审批流程优化和标准化，运用互联网技术、互联网思维，连接网络与现实社会，打通住建部
+                        门数据壁垒，互通线上与线下，使公众和企业能够“随时、随地、随需、随行”地享受到集约、高效、透明的住建服务。着力转变政府
+                        职能、创新管理方式、规范权力运行、提高行政效能的综合智慧住建平台。
+                    </div>
+                </div>
+            </div>
+            <div class="prod_bottom"></div>
+        </div>
+        <div class="pla_fea_box box" id='floor2'>
+            <div class="up_case_no">ADVANTACE</div>
+            <div class="module_title">平台特色</div>
+            <div class="pla_content">
+                <div class="pla_item">
+                    <img src="" data-src="./src/images/p1.png" alt="">
+                    <h3>高效协同</h3>
+                    <p>建立统一政务协同工作平台</p>
+                </div>
+                <div class="pla_item">
+                    <img src="" data-src="./src/images/p2.png" alt="">
+                    <h3>资源共享</h3>
+                    <p>项目、企业、人员、信用、GIS等住建行业基础数据共享整合</p>
+                </div>
+                <div class="pla_item">
+                    <img src="" data-src="./src/images/p3.png" alt="">
+                    <h3>虚实连接</h3>
+                    <p>依托公共服务平台，实现住建行业公共服务统一网上交付、发布行业信息和主体信用信息，提供金融服务。</p>
+                </div>
+                <div class="pla_item">
+                    <img src="" data-src="./src/images/p4.png" alt="">
+                    <h3>智慧决策</h3>
+                    <p>信息资源的汇聚交换，建立统一的动态基础信息资源库，同时利用大数据分析技术进行科学分析和挖掘。</p>
+                </div>
+                <div class="pla_item">
+                    <img src="" data-src="./src/images/p5.png" alt="">
+                    <h3>精准监管</h3>
+                    <p>依托统一信息资源中心，共享其他部门的数据信息，实现横向互联、纵向互通的动态协同和精细化监管。</p>
+                </div>
+            </div>
+        </div>
+        <div class="sma_ser_box box" id='floor31'>
+            <div class="up_case_no">PLATEORM</div>
+            <div class="module_title">智慧住建服务平台</div>
+            <div class="sam_line"></div>
+            <div class="sam_content">
+                <div class="sam_wrapper ">
+                    <div class="sam_item col-md-4">
+                        <img src="" data-src='./src/images/f1.jpg' alt="">
+                        <h3>政府服务平台</h3>
+                        <p>平台基于统一用户管理、统一服务管理、统一门户支撑、统一消息服务、统一工作流等基础支撑组件，
+                            促进应用系统整合，减少重复投资。用户拥有自定义个性化界面的权限，也可在界面上按需添加平台内
+                            各类数据资源的分析结果。</p>
+                    </div>
+                    <div class="sam_item col-md-4">
+                        <img src="" data-src='./src/images/f2.jpg' alt="">
+                        <h3>公共服务平台</h3>
+                        <p>面向公众构建基于“互联网＋智慧住建”的跨部门、跨区域、业务协同、互联互通的“公众服务平台”。
+                            平台集成整合了行业各职能部门提供的政务服务应用，融合互联网、移动应用等服务渠道，提供线
+                            上线下一体化服务。</p>
+                    </div>
+                    <div class="sam_item col-md-4">
+                        <img src="" data-src='./src/images/f3.jpg' alt="">
+                        <h3>移动服务平台</h3>
+                        <p>将移动APP 与微信公众号服务纳入到移动服务平台一体化的建设中，
+                            拓宽住建部门新兴服务渠道，实现传统业务系统与新媒体平台的融合，
+                            有助于进一步提升用户服务体验。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sam_data_box box" id='floor32'>
+            <div class="up_case_no">BIGDATA</div>
+            <div class="module_title">智慧住建大数据</div>
+            <div class="data_content">
+                <div class="col-md-3">
+                    <div class="data_item">
+                        <img src='' data-src="./src/images/s1.png" alt="">
+                        <h3>数据中心库建设</h3>
+                        <p>Ph.D., Philosophy, University of South Florida</p>
+                        <div class="data_wrapper">
+                            <span>基础数据库</span>
+                            <span>业务主题库</span>
+                            <span>服务数据库</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="data_item">
+                        <img src='' data-src="./src/images/s2.png" alt="">
+                        <h3>大数据管理平台</h3>
+                        <p>Director of Engineering at Optulink, Inc.</p>
+                        <div class="data_wrapper">
+                            <span>数据归集服务</span>
+                            <span>资源目录体系</span>
+                            <span>信息资源交换</span>
+                            <span>共享服务平台</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="data_item">
+                        <img src='' data-src="./src/images/s3.png" alt="">
+                        <h3>大数据应用服务</h3>
+                        <p>Ph.D., Electrical and Computer Engineering</p>
+                        <div class="data_wrapper">
+                            <span>聚焦建筑市场</span>
+                            <span>房地产大数据</span>
+                            <span>提升城市内涵</span>
+                            <span>逐渐资源</span>
+                            <span>建设行业政务创新</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="data_item">
+                        <img src='' data-src="./src/images/s4.png" alt="">
+                        <h3>大数据开发平台</h3>
+                        <p>Director of Higher Education</p>
+                        <div class="data_wrapper">
+                            <span>数据资源开发服务</span>
+                            <span>开放API接口</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sam_all_box box" id='floor33'>
+            <div class="up_case_no">BUSINESS</div>
+            <div class="module_title">智慧住建全业务</div>
+            <div class="all_content">
+                <div class="col-md-3">
+                    <div class="all_item"> <img src="" data-src='./src/images/a1.jpg' alt="">
+                        <h3>数字审批</h3>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="all_item"> <img src="" data-src='./src/images/a2.jpg' alt="">
+                        <h3>数字建管</h3>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="all_item"> <img src="" data-src='./src/images/a3.jpg' alt="">
+                        <h3>数字城建</h3>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="all_item"> <img src="" data-src='./src/images/a4.jpg' alt="">
+                        <h3>数字村镇</h3>
+                    </div>
+
+                </div>
+            </div>
+            <div class="all_content">
+                <div class="col-md-3">
+                    <div class="all_item">
+                        <img src="" data-src='./src/images/a5.jpg' alt="">
+                        <h3>数字工地</h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="all_item">
+                        <img src="" data-src='./src/images/a6.jpg' alt="">
+                        <h3>数字教育</h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="all_item">
+                        <img src="" data-src='./src/images/a7.jpg' alt="">
+                        <h3>数字房产</h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="all_item">
+                        <img src="" data-src='./src/images/a8.jpg' alt="">
+                        <h3>...</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sam_suport_box support_pc" id='floor34'>
+            <img src="" data-src='./src/images/dzc.png' alt="">
+        </div>
+        <div class="support_mobile box">
+            <div class="up_case_no">CONTENT</div>
+            <div class="module_title">智慧住建大支撑</div>
+            <img src="" data-src='./src/images/dzc.jpg' alt="">
+        </div>
+        <div class="sam_ai_box">
+            <div class="ai_content">
+                <div class="up_case_no">NTELLIG</div>
+                <div class="module_title">智能AI设备</div>
+            </div>
+            <img src="" data-src="./src/images/znai.jpg" alt="">
+            <div class="ai_bg"></div>
+        </div>
+        <div class="apply_value_box box" id='floor5'>
+            <div class="up_case_no">VALUE</div>
+            <div class="module_title">应用价值</div>
+            <div class="apply_content">
+                <div class="col-md-4 tab-pc">
+                    <ul>
+                        <li class='active'><span>-</span><span>01</span><span>提升基础设施的统筹集约</span></li>
+                        <li><span>-</span><span>02</span><span>提升业务办公的高效协同</span></li>
+                        <li><span>-</span><span>03</span><span>提升市场监管的实时联动</span></li>
+                        <li><span>-</span><span>04</span><span>提升公共服务的网上交付</span></li>
+                        <li><span>-</span><span>05</span><span>提升决策分析的科学智慧</span></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 tab_mobile">
+                    <ul>
+                        <li class='active'>集约</li>
+                        <li>协同</li>
+                        <li>联动</li>
+                        <li>交付</li>
+                        <li>智慧</li>
+                    </ul>
+                </div>
+                <div class="tab_box col-md-8">
+                    <div class="tab_item">
+                        <img src="" data-src='./src/images/tab1.jpg' alt="">
+                        <div class='tab_text'>
+                            <h3>提升基础设施的统筹集约</h3>
+                            既运用云计算技术，统筹规划和建设住建行业统一的数据中心，实现服务器、网络、
+                            存储等基础设施的虚拟化管理和集中监控，降低信息化建设硬件和基础软件的投入成本。
+                        </div>
+                    </div>
+                    <div class="tab_item">
+                        <img src="" data-src='./src/images/tab2.jpg' alt="">
+                        <div class='tab_text'>
+                            <h3>提升业务办公的高效协同</h3>
+                            既通过建立统一的政务协同工作平台，集成整合日常办公和业务应用等各类系统，跨系统共享数据信息，优化管理流程，形成从横贯通、
+                            有机关联的业务和办公平台，全面提高政务人员的日常工作效率。
+                        </div>
+                    </div>
+                    <div class="tab_item">
+                        <img src="" data-src='./src/images/tab3.jpg' alt="">
+                        <div class='tab_text'>
+                            <h3>提升市场监管的实时联动</h3>
+                            既各省建设行政主管部门通过省市统一的信息资源中心，共享其他部门的数据信息，建立集成网状的业务管理模型，
+                            实现横向互联、纵向互通的状态协同和精细化管理，
+                            全面、及时、准确掌握管理对象的实时情况，提高事中事后监管的能力和水平。
+                        </div>
+                    </div>
+                    <div class="tab_item">
+                        <img src="" data-src='./src/images/tab4.jpg' alt="">
+                        <div class='tab_text'>
+                            <h3>提升公共服务的网上交付</h3>
+                            既依托省市住建业务领域公共信息综合服务平台，实现住建行业公共服务的统一网上支付。
+                            发布通知公告、行业信息和主体信用信息，有效保障“上情下达”与”下情上达“。提供统一的网上办事入口，实现行政审批、
+                            备案和其它便民服务事项的统一网上受理与反馈，并利用移动互联网技术拓展服务渠道，从而进一步转变政府职能，构建服务型政府。
+                        </div>
+                    </div>
+                    <div class="tab_item">
+                        <img src="" data-src='./src/images/tab5.jpg' alt="">
+                        <div class='tab_text'>
+                            <h3>提升决策分析的科学智慧</h3>
+                            既通过主机行业各业务条线信息资源的汇聚交换，建立全区域统一的基础信息资源库，
+                            并基于动态更新的信息资源库，利用大数据分析技术进行科学分析和挖掘，实现智慧型
+                            的辅助决策功能，提升政府的科学决策分析能力。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="floor6">
+        <div class="footer-box">
+            <div class="foot-item col-md-5">
+                <ul>
+                    <li class="title">产品体系</li>
+                    <li>智慧住建大数据</li>
+                    <li>数字化审图大数据</li>
+                    <li>智慧工地大数据</li>
+                    <li>BIM+GIS城建档案大数据</li>
+                    <li>V来之家</li>
+                </ul>
+            </div>
+            <div class="foot-item col-md-5">
+                <ul>
+                    <!-- <li><img  src="" data-src="./src/images/logo.png"/></li> -->
+                    <li class="title">联系我们</li>
+                    <li>时间：周一至周五 9:00-18:00</li>
+                    <li>400-0606-185&nbsp;&nbsp;010-63738902</li>
+                    <li>邮箱：partner@zhongzhudata.com</li>
+                    <li>北京市丰台区汉威国际广场2区1号楼4层</li>
+                </ul>
+            </div>
+            <div class="foot-item col-md-2">
+                <ul>
+                    <li><img class="q_img" src="" data-src="./src/images/bottom_gzh.png" /></li>
+                    <li class="q_text" style="text-align: center">微信公众号</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-foot">
+            <p style='float:left;'> 2018中住（北京）数据科技有限公司ALLRIGHTS</p>
+            <p style='float:right;'>京ICP备18096784号<img src="" data-src="./src/images/jbh.png"
+                    style="width:25px;vertical-align:middle" /></p>
+        </div>
+    </div>
+    <!-- 模态框（Modal） -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">
+                        请留下您宝贵的信息
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-item"><span><i class="star">*</i>称呼：</span><input id="contact" type="text"></div>
+                    <div class="modal-item"><span><i class="star">*</i>联系电话：</span><input id="mobile" type="text"></div>
+                    <div class="modal-item"><span><i class="star">*</i>企业名称：</span><input id="companyName" type="text"
+                            maxlength="50"></div>
+                    <div class="modal-item"><span><i class="star">*</i>所在地区：</span><select
+                            id="province"></select><em>市：</em><select id="city">
+                            <option value="">请选择市</option>
+                        </select></div>
+                    <div class="modal-item"><span><i class="star"></i>电子邮箱：</span><input id="email" type="text"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="submitBtn"
+                        style="margin:0 auto;display:block;width:200px;background:#2c87ea;">
+                        提交
+                    </button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+
+    <div class="modal fade bs-example-modal-sm" id="smallModal" tabindex="-1" role="dialog"
+        aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content" id="ts-text" style="text-align:center;line-height:30px;">
+                所填表单有错，请检查后再次提交
+            </div>
+        </div>
+    </div>
+    <!-- 返回顶部 -->
+    <div id='goTop'>
+        <img src="./src/images/top.png" />
+    </div>
+</body>
+
+</html>

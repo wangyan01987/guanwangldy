@@ -1,0 +1,306 @@
+@media (max-width: 768px) {
+    .topbar {
+        display: none;
+    }
+
+    .modal-item span {
+        margin-left: 0;
+        width: 92px;
+    }
+
+    .modal-item input {
+        float: left;
+        width: 230px;
+    }
+
+    .modal-item select {
+        width: 95px;
+    }
+
+    /*top*/
+    .top_img img {
+        height: 200px;
+    }
+
+    .page_title {
+        top: 50%;
+        margin-top: -50px;
+    }
+
+    .page_title h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .page_title p {
+        font-size: 18px;
+    }
+
+    .prod_img img {
+        display: none;
+    }
+
+    /*content */
+    .prod_content, .pla_content {
+        width: 100%;
+    }
+
+    .prod_text_box {
+        padding: 0;
+        padding-bottom: 20px;
+    }
+
+    .prod_intro_box {
+        padding-top: 40px;
+        height: inherit;
+    }
+
+    .module_title {
+        margin-bottom: 40px;
+        font-size: 24px;
+    }
+
+    .prod_text_box .module_title {
+        text-align: center;
+    }
+
+    .prod_text_box .module_title:before {
+        left: 42%;
+        right: inherit;
+    }
+
+    .prod_text {
+        box-sizing: border-box;
+        padding: 0 15px;
+        text-indent: 2em;
+    }
+
+    .prod_bottom {
+        height: 280px;
+    }
+
+    .up_case {
+        position: absolute;
+        top: -20px;
+        font-size: 60px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .up_case_no {
+        font-size: 60px;
+        top: 22px;
+    }
+
+    .prod_text {
+        margin-top: 0px;
+    }
+
+    .box {
+        padding-top: 40px;
+    }
+
+    .pla_item {
+        width: 50%;
+    }
+
+    /*智慧住建服务平台*/
+    .sma_ser_box {
+        margin-top: 20px;
+    }
+
+    .sam_wrapper {
+        width: 100%;
+    }
+
+    .sam_content, .data_content, .all_content, .sam_suport_box, .support_mobile, .ai_content, .apply_content, .footer-box {
+        height: inherit;
+        width: 100%;
+    }
+
+    .sam_item img {
+        width: 100%;
+        height: 260px;
+    }
+
+    .sam_item h3 {
+        margin: 20px 0 15px 0;
+    }
+
+    .sam_item p {
+        padding-right: 0;
+        padding-bottom: 20px;
+        text-indent: 2em;
+    }
+
+    /*智慧住建大数据*/
+    .data_item {
+        margin-top: 100px;
+        height:342px;
+    }
+    .data_wrapper span{
+        width:44%;
+        max-width:145px;
+        min-width:120px;
+    }
+    .all_content {
+        margin-bottom: 0;
+    }
+
+    .all_item img {
+        height: 160px;
+        width: 160px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .all_content .col-md-3 {
+        width: 50%;
+        float: left;
+    }
+
+    .all_item h3 {
+        margin-bottom: 20px;
+    }
+
+    /*智慧住建大支撑*/
+    .support_pc {
+        display: none;
+    }
+
+    .support_mobile {
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0 15px;
+        position: relative;
+    }
+
+    .support_mobile .up_case_no {
+        top: -21px;
+        left:0;
+    }
+
+    /*智能AI设备*/
+    .sam_ai_box {
+        height: inherit;
+        margin-top: 0;
+        padding-top: 40px;
+        position: relative;
+    }
+
+    .ai_content {
+        background: none;
+    }
+
+    .ai_content .module_title {
+        height: inherit;
+        text-align: center;
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .sam_ai_box .module_title:before {
+        left: 40%;
+    }
+
+    .ai_bg {
+        display: none;
+    }
+
+    .sam_ai_box img {
+        display: block;
+    }
+
+    /*应用价值*/
+    .tab-pc {
+        display: none;
+    }
+
+    .tab_mobile {
+        display: block;
+    }
+
+    .tab_text {
+        padding: 15px 10px 0 10px;
+        height: 200px;
+    }
+
+    .tab_text h3 {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    .tab_mobile ul {
+        height: 32px;
+        width: 100%;
+    }
+
+    .tab_mobile ul li {
+        float: left;
+        width: 20%;
+        text-align: center;
+        height: 32px;
+        line-height: 32px;
+        background: none;
+        font-weight: 600;
+    }
+
+    .tab_mobile ul li.active {
+        color: #1a47b0;
+        box-shadow: none;
+        background: none;
+        position: relative;
+    }
+
+    .tab_mobile ul li.active:before {
+        content: '';
+        width: 30px;
+        height: 2px;
+        background: #1a47b0;
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        margin-left: -15px;
+    }
+
+    .tab_box {
+        height: inherit;
+    }
+
+    .apply_content {
+        margin-bottom: 40px;
+    }
+    /*footer*/
+    .footer ul {
+        padding: 0;
+    }
+
+    .q_img {
+        width: 100px;
+    }
+    .q_text{
+        text-align:left!important;
+    }
+    .footer-foot{
+        margin-top:12px;
+        font-size:12px;
+        line-height:14px;
+        box-sizing:border-box;
+        padding-left:15px;
+        width:100%;
+    }
+    .footer-foot p{
+        float:none!important;
+    }
+    .ai_content .up_case_no{
+        display:block;
+        top:-20px;
+    }
+    body{
+        /*overflow-x:hidden;*/
+    }
+}
